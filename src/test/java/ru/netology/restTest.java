@@ -15,7 +15,7 @@ class restTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Bye"));
+                .body("data", equalTo("Hi"));
 
     }
 
